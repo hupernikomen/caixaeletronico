@@ -2,23 +2,21 @@ import { StyleSheet } from "react-native/"
 
 export default estilo = StyleSheet.create({
   display: {
-    backgroundColor: '#303030',
+    backgroundColor: '#222',
     margin: 6,
-    height: 120,
     borderRadius: 6,
-    paddingHorizontal: 10,
+    padding: 10,
     justifyContent: 'center',
     flex:1
   },
   container_botoes_superiores: {
     flexDirection: 'row',
-    justifyContent:'space-around'
+    justifyContent:'space-around',
+    flex:.5
   },
-  container_botoes: {
+  container_calculadora: {
     flexDirection:'row',
-    flex:5,
-    padding:6,
-    gap:6
+    flex:4
   },
   info_display: {
     alignItems: 'flex-end',
@@ -26,33 +24,44 @@ export default estilo = StyleSheet.create({
   total: {
     color: '#fff',
     alignSelf: 'flex-end',
-    fontSize: 55
+    fontSize: 60
   },
 
   botao_superior: {
-    flex:3,
+    flex:.5,
     alignItems:'center',
-    justifyContent:'center', 
-    height:50
+    paddingTop:10,
+    justifyContent:'flex-start', 
   },
   text_botoes: {
-    color:'#fff'
+    color:'#fff',
   },
 
   botao_numero: {
     borderWidth:.5,
-    borderColor:'#303030',
+    borderColor:'#111',
+    backgroundColor:'#222',
+    alignItems:'center',
+    justifyContent:'center',
+  },
+  botao_config: {
+    borderWidth:.5,
+    borderColor:'#111',
     alignItems:'center',
     justifyContent:'center',
     flex:1
   },
+  txt_config: {
+    fontSize:16,
+    color:'#fff',
+  },
   linha_numeros: {
     flexDirection:'row',
-    gap:6
+    flex:1
   },
   linha_config: {
     flexDirection:'row',
-    gap:6
+    flex:.5
     
   },
   numero: {

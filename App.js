@@ -7,14 +7,14 @@ const Theme = {
   ...DefaultTheme,
   colors: {
 
-    background: '#181818',
-    primeira: '#181818',
+    background: '#292a2b',
+    primeira: '#1d2c32',
     segunda: '#0071bc',
     terceira: '#f77c1e'
   },
   app: {
     icone: 22,
-    tema: '#181818',
+    tema: '#292a2b',
     texto: '#fff',
   },
   admin: {
