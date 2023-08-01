@@ -7,7 +7,7 @@ const Theme = {
   ...DefaultTheme,
   colors: {
 
-    background: '#292a2b',
+    background: '#f9f9f9',
     primeira: '#1d2c32',
     segunda: '#0071bc',
     terceira: '#f77c1e'
@@ -15,7 +15,7 @@ const Theme = {
   app: {
     icone: 22,
     tema: '#292a2b',
-    texto: '#fff',
+    texto: '#222',
   },
   admin: {
     tema: '#fff',
@@ -28,12 +28,10 @@ export default function App() {
   return (
     <NavigationContainer theme={Theme}>
 
-
       <StatusBar
         backgroundColor={Theme.app.tema}
         translucent={false} />
       <RotasStack />
-
 
     </NavigationContainer>
   );

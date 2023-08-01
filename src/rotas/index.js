@@ -21,12 +21,16 @@ export default function RotasStack() {
         options={{
           headerShown:false
         }}
-      />
+        />
       <Stack.Screen
         name='Troco'
         component={Troco}
         options={{
-          headerShown:false
+          title:'Informe o Valor Recebido...',
+          headerShadowVisible:false,
+          headerStyle:{
+            backgroundColor:'#f9f9f9'
+          }
         }}
       />
       <Stack.Screen
